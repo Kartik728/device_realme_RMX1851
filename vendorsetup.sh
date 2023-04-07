@@ -1,26 +1,11 @@
 #!/bin/bash
 
-banner(){
-clear
-echo "================================"
-echo "|                              |"
-echo "|   Realme 3 Pro Setup Script  |"
-echo "|       Branch: Lineage        |"
-echo "|    Maintained By: Cykeek     |"
-echo "|                              |"
-echo "================================"
-}
-
-banner 2>1
-
 # Kernel
-banner 2>1
 echo "Cloning Kernel..."
-git clone https://github.com/kdrag0n/proton-clang prebuilts/clang/host/linux-x86/proton-clang
-git clone https://github.com/Cykeek-Labs/kernel_realme_sdm710 kernel/realme/sdm710
+git clone https://github.com/kdrag0n/proton-clang.git prebuilts/clang/host/linux-x86/proton-clang
+git clone https://github.com/Kartik728/kernel_realme_sdm710.git kernel/realme/sdm710
 
 
 # RealmeParts
-banner 2>1
 echo "Cloning RealmeParts..."
-git clone https://github.com/Cykeek-Labs/packages_apps_realmeparts packages/apps/RealmeParts
+git clone https://github.com/Kartik728/packages_apps_realmeparts.git packages/apps/RealmeParts
