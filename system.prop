@@ -1,3 +1,7 @@
+# Spark-OS
+ro.spark.maintainer= Kartik
+ro.spark.maintainer.username= Kartik728
+
 # Art
 dalvik.vm.dex2oat64.enabled=true
 dalvik.vm.boot-dex2oat-cpu-set=0,1,2,3,4,5,6,7
