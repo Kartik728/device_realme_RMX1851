@@ -1,2 +1,9 @@
 allow untrusted_app_30 proc_loadavg:file { read };
 allow untrusted_app_30 system_linker_exec:file { execmod };
+allow untrusted_app_30 serialno_prop:file { read };
+allow untrusted_app_30 qemu_sf_lcd_density_prop:file { read };
+allow untrusted_app_30 qemu_hw_prop:file { read };
+allow untrusted_app_30 qemu_hw_prop:file { open };
+allow untrusted_app_30 proc:file { read };
+allow untrusted_app_30 proc:file { open };
+allow untrusted_app_30 serialno_prop:file { open };
